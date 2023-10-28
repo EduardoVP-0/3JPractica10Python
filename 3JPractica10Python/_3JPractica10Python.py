@@ -4,8 +4,8 @@ def sumaIterativa(n):
 	suma = 0
 
 	while n > 9:
-		suma += n % 10;
-		n //= 10;
+		suma += n % 10
+		n //= 10
 
 	return suma + n
 
